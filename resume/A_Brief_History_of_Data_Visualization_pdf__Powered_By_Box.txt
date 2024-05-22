@@ -1,0 +1,991 @@
+﻿ A Brief History of Data Visualization.pdf | Powered By Box                       ᜑ
+.main-header { background: #666666; } /* No hover effects on the box logo yet */
+ .main-header .header-logo .box-logo path { fill: #fff; } /* Header search bar 
+toggle icon (small size only) */ .main-header-search .toggle-search-btn 
+.search-icon-svg path, .main-header-search .toggle-search-btn .close-icon-svg 
+path:first-of-type, /* Other header button icons */ .main-header 
+.toggle-left-nav-btn svg path:first-of-type, .main-header-profile button svg *,
+ .main-header .btn-header-control path { fill: #fff; opacity: 0.8;
+ -webkit-transition: opacity 0.1s; transition: opacity 0.1s; }
+ .main-header-search .toggle-search-btn:hover .search-icon-svg path,
+ .main-header-search .toggle-search-btn:hover .close-icon-svg 
+path:first-of-type, .main-header .toggle-left-nav-btn:hover svg 
+path:first-of-type, .main-header-profile button:hover svg *, .main-header 
+.btn-header-control:hover path { fill: #fff; opacity: 1; } .main-header 
+.progress-bar-mount-node .progress-bar { background: #999999; } /* Header 
+controls */ .main-header.right-sidebar-open 
+.btn-header-control.toggle-right-sidebar-btn, .main-header 
+.contextual-popout.is-visible .btn-header-control.popout-toggle-button { 
+background-color: #515151; } .quick-search-widget .keywordless-wrapper 
+.menu-wrapper.is-visible >button, .quick-search-widget .keywordless-wrapper 
+.menu-wrapper >button:focus { border-color: #666666; } .preview-content 
+.bp-btn-primary, .preview-content .bp-btn-primary:focus { background-color: 
+#333; border-color: #333; } .preview-content .bp-btn-primary:hover { 
+background-color: #474747; border-color: #474747; } .preview-content 
+.bp-btn-primary:active:focus { background-color: #333; border-color: #333; }  if 
+(document.documentMode && document.documentMode < 11) { window.location.href = 
+'/ie'; }      
+Switch to the Accessible Version of Box ›
+
+Skip to All Files
+<div class="noscript-warning"> JavaScript is currently disabled in your browser. 
+You must have JavaScript enabled to take full advantage of Box.</div> 
+ 
+ 
+ Log inSign up
+
+
+Tableau Bootcamp 
+
+ 
+
+Wk1 - Introduction to Jedi Academy - Data Viz Best Practices in Tableau
+
+
+Send Items Download Move or Copy  Trash  No actions available
+
+
+
+
+
+
+
+
+
+
+Details
+
+
+
+
+
+Owner
+
+Thomas OHara
+
+Enterprise Owner
+
+Comcast
+
+Created
+
+Feb 20, 2017, 6:06 AM
+
+Updated
+
+Mar 7, 2017, 6:42 AM
+
+Size
+
+63.9 MB
+
+
+
+
+ 
+
+
+
+
+
+
+ Sort byUpdated  
+   Name
+
+
+  Updated
+
+
+  Size
+
+
+ 
+  
+
+
+FOLDERS
+
+
+FILES
+
+   
+
+   
+
+
+
+
+   Juice Analytics - Guide to Dashboard Design.pdf
+
+
+
+  Mar 7, 2017 by Thomas OHara 
+
+  5.2 MB 
+
+
+
+   
+
+   
+
+
+
+
+   Tableau Whitepaper - Visual Analysis Best Practices.pdf
+
+
+
+  Mar 7, 2017 by Thomas OHara 
+
+  3.9 MB 
+
+
+
+   
+
+   
+
+
+
+
+   A Brief History of Data Visualization.pdf
+
+
+
+  Mar 7, 2017 by Thomas OHara 
+
+  2 MB 
+
+
+
+   
+
+   
+
+
+
+
+   Week1Slides.twbx
+  V9 
+
+
+  Feb 21, 2017 by Thomas OHara 
+
+  5.9 MB 
+
+
+
+
+WEBLINKS
+{"menus":{"f_144109908007":" &lt;div class=&quot;menu-wrapper&quot; 
+data-keyboard-layer&gt;&lt;ul class=&quot;menu item-menu menu-file-list&quot; 
+data-resin-file_id=&quot;144109908007&quot; aria-hidden=&quot;true&quot; 
+id=&quot;menu-file-list-144109908007&quot;&gt; &lt;li 
+class=&quot;favorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;favorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;favorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Favorite&lt;\/button&gt;&lt;\/li&gt;&lt;li 
+class=&quot;unfavorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;unfavorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;unfavorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Remove as 
+Favorite&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;request-unlock-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;request-unlock&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;request_unlock&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;unlock-icon-svg&quot; 
+width=&quot;12&quot; height=&quot;14&quot; viewBox=&quot;0 0 12 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M10.3 5C10.2 2.6 8.3.6 5.9.6c-1 0-2 
+.3-2.7.9-.3.2-.3.5-.2.8.2.2.5.3.7.1.6-.5 1.4-.7 2.1-.7 1.8 0 3.4 1.5 3.4 
+3.4H2C.9 5 0 5.9 0 7v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7c0-1-.7-1.8-1.7-2zm.7 7c0 
+.5-.5 1-1 1H2c-.6 0-1-.4-1-1V7c0-.5.5-1 1-1h8c.6 0 1 .4 1 
+1v5z&quot;\/&gt;&lt;path d=&quot;M7.5 9h-3c-.3 0-.5.2-.5.5s.2.5.5.5h3c.3 0 
+.5-.2.5-.5S7.8 9 7.5 9z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt; 
+Request Unlock&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;menu-divider&quot;&gt;&lt;\/li&gt;&lt;li 
+data-has-submenu&gt;&lt;button class=&quot;menu-option&quot; 
+data-resin-target=&quot;properties&quot; aria-haspopup=&quot;true&quot; 
+aria-owns=&quot;properties-submenu-item-144109908007-1319478636&quot;&gt;&lt;spanq
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;properties-icon-svg&quot; width=&quot;13&quot; height=&quot;10&quot; 
+viewBox=&quot;0 0 13 10&quot; xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; 
+xmlns:xlink=&quot;http:\/\/www.w3.org\/1999\/xlink&quot; role=&quot;img&quot; 
+&gt; &lt;defs&gt;&lt;path id=&quot;propertiesicon-74528362-a&quot; d=&quot;M.66 
+0h12v1h-12z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-74528362-e&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;12&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-74528362-a&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-74528362-b&quot; d=&quot;M.66 
+3h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-74528362-f&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-74528362-b&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-74528362-c&quot; d=&quot;M.66 
+6h6v1h-6z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-74528362-g&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;6&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-74528362-c&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-74528362-d&quot; d=&quot;M.66 
+9h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-74528362-h&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-74528362-d&quot;\/&gt;&lt;\/mask&gt;&lt;\/defs&gt;&lt;go
+stroke=&quot;#444&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;&lt;use 
+mask=&quot;url(#propertiesicon-74528362-e)&quot; 
+xlink:href=&quot;#propertiesicon-74528362-a&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-74528362-f)&quot; 
+xlink:href=&quot;#propertiesicon-74528362-b&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-74528362-g)&quot; 
+xlink:href=&quot;#propertiesicon-74528362-c&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-74528362-h)&quot; 
+xlink:href=&quot;#propertiesicon-74528362-d&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;Properties&lt;\/button&gt;&lt;ulp
+class=&quot;menu submenu&quot; data-resin-feature=&quot;propertiessubmenu&quot; 
+id=&quot;properties-submenu-item-144109908007-1319478636&quot;&gt;&lt;li&gt;&lt;ao
+class=&quot;menu-option&quot; href=&quot;\/file\/144109908007\/properties&quot; 
+data-menu-event=&quot;file-properties&quot; 
+data-resin-target=&quot;properties&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;item-info-icon-svg&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; viewBox=&quot;0 0 5 13&quot; 
+width=&quot;5&quot; height=&quot;13&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M1 12h3V6H1v6zm0-7h3c.6 0 1 .5 1 1v6c0 
+.6-.4 1-1 1H1c-.6 0-1-.5-1-1V6c0-.6.4-1 1-1zM2 3h1c.6 0 1-.4 1-1s-.4-1-1-1H2c-.6 
+0-1 .4-1 1s.4 1 1 1zm0-3h1c1.1 0 2 .9 2 2s-.9 2-2 2H2C.9 4 0 3.1 0 2s.9-2 
+2-2z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;File 
+Information&lt;\/a&gt;&lt;\/li&gt; &lt;li&gt;&lt;a class=&quot;menu-option&quot; 
+href=&quot;\/file\/144109908007?sidebar=metadata&quot; data-ajax 
+data-resin-feature=&quot;editmetadata&quot; 
+data-resin-target=&quot;viewmetadataeditor&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt;\n&lt;svg 
+class=&quot;metadata-template-icon-svg&quot; width=&quot;21&quot; 
+height=&quot;21&quot; viewBox=&quot;0 0 21 21&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt;\n \n 
+&lt;g transform=&quot;translate(1 1)&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;\n &lt;ellipse stroke=&quot;#333333&quot; 
+cx=&quot;9.5&quot; cy=&quot;9.5&quot; rx=&quot;9.5&quot; 
+ry=&quot;9.5&quot;\/&gt;\n &lt;path d=&quot;M9.612 
+10.01c.057.127.11.256.164.388.052-.135.106-.268.163-.397.056-.128.117-.25.18-.367l1.725-3.393c.03-.06.063-.104.095-.136.032-.033.068-.056.108-.072.04-.015.086-.024.136-.027.05-.003.11-.005.178-.005h1.19v6.717h-1.375V8.854c0-.188.01-.39.028-.61l-1.78&
+3.454c-.055.108-.13.19-.223.244-.094.056-.2.083-.32.083H9.67c-.12 
+0-.227-.027-.32-.083-.095-.055-.17-.136-.225-.244L7.337 
+8.24c.012.108.02.215.028.32.006.107.01.205.01.294v3.863H6V6h1.19c.067 0 
+.126.002.177.005.05.003.096.012.136.027.04.016.076.04.108.072.033.032.065.077.096.136l1.728i
+3.407c.062.116.12.238.178.364&quot; fill=&quot;#333333&quot;\/&gt;\n 
+&lt;\/g&gt;\n&lt;\/svg&gt;&lt;\/span&gt;Metadata&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/li&gt;r
+&lt;\/ul&gt;&lt;\/div&gt; ","f_144109955164":" &lt;div 
+class=&quot;menu-wrapper&quot; data-keyboard-layer&gt;&lt;ul class=&quot;menu 
+item-menu menu-file-list&quot; data-resin-file_id=&quot;144109955164&quot; 
+aria-hidden=&quot;true&quot; id=&quot;menu-file-list-144109955164&quot;&gt; 
+&lt;li class=&quot;favorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;favorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;favorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Favorite&lt;\/button&gt;&lt;\/li&gt;&lt;lil
+class=&quot;unfavorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;unfavorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;unfavorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Remove as 
+Favorite&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;request-unlock-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;request-unlock&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;request_unlock&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;unlock-icon-svg&quot; 
+width=&quot;12&quot; height=&quot;14&quot; viewBox=&quot;0 0 12 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M10.3 5C10.2 2.6 8.3.6 5.9.6c-1 0-2 
+.3-2.7.9-.3.2-.3.5-.2.8.2.2.5.3.7.1.6-.5 1.4-.7 2.1-.7 1.8 0 3.4 1.5 3.4 
+3.4H2C.9 5 0 5.9 0 7v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7c0-1-.7-1.8-1.7-2zm.7 7c0 
+.5-.5 1-1 1H2c-.6 0-1-.4-1-1V7c0-.5.5-1 1-1h8c.6 0 1 .4 1 
+1v5z&quot;\/&gt;&lt;path d=&quot;M7.5 9h-3c-.3 0-.5.2-.5.5s.2.5.5.5h3c.3 0 
+.5-.2.5-.5S7.8 9 7.5 9z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt; 
+Request Unlock&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;menu-divider&quot;&gt;&lt;\/li&gt;&lt;li 
+data-has-submenu&gt;&lt;button class=&quot;menu-option&quot; 
+data-resin-target=&quot;properties&quot; aria-haspopup=&quot;true&quot; 
+aria-owns=&quot;properties-submenu-item-144109955164-758667596&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;properties-icon-svg&quot; width=&quot;13&quot; height=&quot;10&quot; 
+viewBox=&quot;0 0 13 10&quot; xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; 
+xmlns:xlink=&quot;http:\/\/www.w3.org\/1999\/xlink&quot; role=&quot;img&quot; 
+&gt; &lt;defs&gt;&lt;path id=&quot;propertiesicon-991548813-a&quot; d=&quot;M.66 
+0h12v1h-12z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-991548813-e&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;12&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-991548813-a&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-991548813-b&quot; d=&quot;M.66 
+3h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-991548813-f&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-991548813-b&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-991548813-c&quot; d=&quot;M.66 
+6h6v1h-6z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-991548813-g&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;6&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-991548813-c&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-991548813-d&quot; d=&quot;M.66 
+9h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-991548813-h&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-991548813-d&quot;\/&gt;&lt;\/mask&gt;&lt;\/defs&gt;&lt;g/
+stroke=&quot;#444&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;&lt;use 
+mask=&quot;url(#propertiesicon-991548813-e)&quot; 
+xlink:href=&quot;#propertiesicon-991548813-a&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-991548813-f)&quot; 
+xlink:href=&quot;#propertiesicon-991548813-b&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-991548813-g)&quot; 
+xlink:href=&quot;#propertiesicon-991548813-c&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-991548813-h)&quot; 
+xlink:href=&quot;#propertiesicon-991548813-d&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;Properties&lt;\/button&gt;&lt;ul\
+class=&quot;menu submenu&quot; data-resin-feature=&quot;propertiessubmenu&quot; 
+id=&quot;properties-submenu-item-144109955164-758667596&quot;&gt;&lt;li&gt;&lt;a 
+class=&quot;menu-option&quot; href=&quot;\/file\/144109955164\/properties&quot; 
+data-menu-event=&quot;file-properties&quot; 
+data-resin-target=&quot;properties&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;item-info-icon-svg&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; viewBox=&quot;0 0 5 13&quot; 
+width=&quot;5&quot; height=&quot;13&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M1 12h3V6H1v6zm0-7h3c.6 0 1 .5 1 1v6c0 
+.6-.4 1-1 1H1c-.6 0-1-.5-1-1V6c0-.6.4-1 1-1zM2 3h1c.6 0 1-.4 1-1s-.4-1-1-1H2c-.6 
+0-1 .4-1 1s.4 1 1 1zm0-3h1c1.1 0 2 .9 2 2s-.9 2-2 2H2C.9 4 0 3.1 0 2s.9-2 
+2-2z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;File 
+Information&lt;\/a&gt;&lt;\/li&gt; &lt;li&gt;&lt;a class=&quot;menu-option&quot; 
+href=&quot;\/file\/144109955164?sidebar=metadata&quot; data-ajax 
+data-resin-feature=&quot;editmetadata&quot; 
+data-resin-target=&quot;viewmetadataeditor&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt;\n&lt;svg 
+class=&quot;metadata-template-icon-svg&quot; width=&quot;21&quot; 
+height=&quot;21&quot; viewBox=&quot;0 0 21 21&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt;\n \n 
+&lt;g transform=&quot;translate(1 1)&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;\n &lt;ellipse stroke=&quot;#333333&quot; 
+cx=&quot;9.5&quot; cy=&quot;9.5&quot; rx=&quot;9.5&quot; 
+ry=&quot;9.5&quot;\/&gt;\n &lt;path d=&quot;M9.612 
+10.01c.057.127.11.256.164.388.052-.135.106-.268.163-.397.056-.128.117-.25.18-.367l1.725-3.393c.03-.06.063-.104.095-.136.032-.033.068-.056.108-.072.04-.015.086-.024.136-.027.05-.003.11-.005.178-.005h1.19v6.717h-1.375V8.854c0-.188.01-.39.028-.61l-1.78p
+3.454c-.055.108-.13.19-.223.244-.094.056-.2.083-.32.083H9.67c-.12 
+0-.227-.027-.32-.083-.095-.055-.17-.136-.225-.244L7.337 
+8.24c.012.108.02.215.028.32.006.107.01.205.01.294v3.863H6V6h1.19c.067 0 
+.126.002.177.005.05.003.096.012.136.027.04.016.076.04.108.072.033.032.065.077.096.136l1.728e
+3.407c.062.116.12.238.178.364&quot; fill=&quot;#333333&quot;\/&gt;\n 
+&lt;\/g&gt;\n&lt;\/svg&gt;&lt;\/span&gt;Metadata&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/li&gt;w
+&lt;\/ul&gt;&lt;\/div&gt; ","f_144109928300":" &lt;div 
+class=&quot;menu-wrapper&quot; data-keyboard-layer&gt;&lt;ul class=&quot;menu 
+item-menu menu-file-list&quot; data-resin-file_id=&quot;144109928300&quot; 
+aria-hidden=&quot;true&quot; id=&quot;menu-file-list-144109928300&quot;&gt; 
+&lt;li class=&quot;favorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;favorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;favorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Favorite&lt;\/button&gt;&lt;\/li&gt;&lt;lid
+class=&quot;unfavorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;unfavorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;unfavorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Remove as 
+Favorite&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;request-unlock-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;request-unlock&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;request_unlock&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;unlock-icon-svg&quot; 
+width=&quot;12&quot; height=&quot;14&quot; viewBox=&quot;0 0 12 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M10.3 5C10.2 2.6 8.3.6 5.9.6c-1 0-2 
+.3-2.7.9-.3.2-.3.5-.2.8.2.2.5.3.7.1.6-.5 1.4-.7 2.1-.7 1.8 0 3.4 1.5 3.4 
+3.4H2C.9 5 0 5.9 0 7v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7c0-1-.7-1.8-1.7-2zm.7 7c0 
+.5-.5 1-1 1H2c-.6 0-1-.4-1-1V7c0-.5.5-1 1-1h8c.6 0 1 .4 1 
+1v5z&quot;\/&gt;&lt;path d=&quot;M7.5 9h-3c-.3 0-.5.2-.5.5s.2.5.5.5h3c.3 0 
+.5-.2.5-.5S7.8 9 7.5 9z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt; 
+Request Unlock&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;menu-divider&quot;&gt;&lt;\/li&gt;&lt;li 
+data-has-submenu&gt;&lt;button class=&quot;menu-option&quot; 
+data-resin-target=&quot;properties&quot; aria-haspopup=&quot;true&quot; 
+aria-owns=&quot;properties-submenu-item-144109928300-2125478566&quot;&gt;&lt;spann
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;properties-icon-svg&quot; width=&quot;13&quot; height=&quot;10&quot; 
+viewBox=&quot;0 0 13 10&quot; xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; 
+xmlns:xlink=&quot;http:\/\/www.w3.org\/1999\/xlink&quot; role=&quot;img&quot; 
+&gt; &lt;defs&gt;&lt;path id=&quot;propertiesicon-1872880187-a&quot; 
+d=&quot;M.66 0h12v1h-12z&quot;\/&gt;&lt;mask 
+id=&quot;propertiesicon-1872880187-e&quot; x=&quot;0&quot; y=&quot;0&quot; 
+width=&quot;12&quot; height=&quot;1&quot; fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-1872880187-a&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-1872880187-b&quot; d=&quot;M.66 
+3h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-1872880187-f&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-1872880187-b&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-1872880187-c&quot; d=&quot;M.66 
+6h6v1h-6z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-1872880187-g&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;6&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-1872880187-c&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-1872880187-d&quot; d=&quot;M.66 
+9h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-1872880187-h&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-1872880187-d&quot;\/&gt;&lt;\/mask&gt;&lt;\/defs&gt;&lt;g\
+stroke=&quot;#444&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;&lt;use 
+mask=&quot;url(#propertiesicon-1872880187-e)&quot; 
+xlink:href=&quot;#propertiesicon-1872880187-a&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-1872880187-f)&quot; 
+xlink:href=&quot;#propertiesicon-1872880187-b&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-1872880187-g)&quot; 
+xlink:href=&quot;#propertiesicon-1872880187-c&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-1872880187-h)&quot; 
+xlink:href=&quot;#propertiesicon-1872880187-d&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;Properties&lt;\/button&gt;&lt;ull
+class=&quot;menu submenu&quot; data-resin-feature=&quot;propertiessubmenu&quot; 
+id=&quot;properties-submenu-item-144109928300-2125478566&quot;&gt;&lt;li&gt;&lt;aw
+class=&quot;menu-option&quot; href=&quot;\/file\/144109928300\/properties&quot; 
+data-menu-event=&quot;file-properties&quot; 
+data-resin-target=&quot;properties&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;item-info-icon-svg&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; viewBox=&quot;0 0 5 13&quot; 
+width=&quot;5&quot; height=&quot;13&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M1 12h3V6H1v6zm0-7h3c.6 0 1 .5 1 1v6c0 
+.6-.4 1-1 1H1c-.6 0-1-.5-1-1V6c0-.6.4-1 1-1zM2 3h1c.6 0 1-.4 1-1s-.4-1-1-1H2c-.6 
+0-1 .4-1 1s.4 1 1 1zm0-3h1c1.1 0 2 .9 2 2s-.9 2-2 2H2C.9 4 0 3.1 0 2s.9-2 
+2-2z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;File 
+Information&lt;\/a&gt;&lt;\/li&gt; &lt;li&gt;&lt;a class=&quot;menu-option&quot; 
+href=&quot;\/file\/144109928300?sidebar=metadata&quot; data-ajax 
+data-resin-feature=&quot;editmetadata&quot; 
+data-resin-target=&quot;viewmetadataeditor&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt;\n&lt;svg 
+class=&quot;metadata-template-icon-svg&quot; width=&quot;21&quot; 
+height=&quot;21&quot; viewBox=&quot;0 0 21 21&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt;\n \n 
+&lt;g transform=&quot;translate(1 1)&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;\n &lt;ellipse stroke=&quot;#333333&quot; 
+cx=&quot;9.5&quot; cy=&quot;9.5&quot; rx=&quot;9.5&quot; 
+ry=&quot;9.5&quot;\/&gt;\n &lt;path d=&quot;M9.612 
+10.01c.057.127.11.256.164.388.052-.135.106-.268.163-.397.056-.128.117-.25.18-.367l1.725-3.393c.03-.06.063-.104.095-.136.032-.033.068-.056.108-.072.04-.015.086-.024.136-.027.05-.003.11-.005.178-.005h1.19v6.717h-1.375V8.854c0-.188.01-.39.028-.61l-1.78t
+3.454c-.055.108-.13.19-.223.244-.094.056-.2.083-.32.083H9.67c-.12 
+0-.227-.027-.32-.083-.095-.055-.17-.136-.225-.244L7.337 
+8.24c.012.108.02.215.028.32.006.107.01.205.01.294v3.863H6V6h1.19c.067 0 
+.126.002.177.005.05.003.096.012.136.027.04.016.076.04.108.072.033.032.065.077.096.136l1.728s
+3.407c.062.116.12.238.178.364&quot; fill=&quot;#333333&quot;\/&gt;\n 
+&lt;\/g&gt;\n&lt;\/svg&gt;&lt;\/span&gt;Metadata&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/li&gt;l
+&lt;\/ul&gt;&lt;\/div&gt; ","f_137655585817":" &lt;div 
+class=&quot;menu-wrapper&quot; data-keyboard-layer&gt;&lt;ul class=&quot;menu 
+item-menu menu-file-list&quot; data-resin-file_id=&quot;137655585817&quot; 
+aria-hidden=&quot;true&quot; id=&quot;menu-file-list-137655585817&quot;&gt; 
+&lt;li class=&quot;favorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;favorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;favorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Favorite&lt;\/button&gt;&lt;\/li&gt;&lt;li&
+class=&quot;unfavorite-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;unfavorite&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;unfavorite&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;favorite-star-icon-svg&quot; width=&quot;14&quot; 
+height=&quot;14&quot; viewBox=&quot;0 0 14 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; 
+&lt;path d=&quot;M7 10.5l-4.114 2.163.785-4.58L.344 4.836l4.6-.67L7 0l2.057 
+4.168 4.6.67L10.33 8.08l.784 4.58z&quot; stroke=&quot;#979797&quot; 
+fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;\/&gt;&lt;\/svg&gt;&lt;\/span&gt;Remove as 
+Favorite&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;request-unlock-menu-option&quot;&gt;&lt;button 
+data-menu-event=&quot;request-unlock&quot; class=&quot;menu-option&quot; 
+data-resin-target=&quot;request_unlock&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;unlock-icon-svg&quot; 
+width=&quot;12&quot; height=&quot;14&quot; viewBox=&quot;0 0 12 14&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M10.3 5C10.2 2.6 8.3.6 5.9.6c-1 0-2 
+.3-2.7.9-.3.2-.3.5-.2.8.2.2.5.3.7.1.6-.5 1.4-.7 2.1-.7 1.8 0 3.4 1.5 3.4 
+3.4H2C.9 5 0 5.9 0 7v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7c0-1-.7-1.8-1.7-2zm.7 7c0 
+.5-.5 1-1 1H2c-.6 0-1-.4-1-1V7c0-.5.5-1 1-1h8c.6 0 1 .4 1 
+1v5z&quot;\/&gt;&lt;path d=&quot;M7.5 9h-3c-.3 0-.5.2-.5.5s.2.5.5.5h3c.3 0 
+.5-.2.5-.5S7.8 9 7.5 9z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt; 
+Request Unlock&lt;\/button&gt;&lt;\/li&gt; &lt;li 
+class=&quot;menu-divider&quot;&gt;&lt;\/li&gt;&lt;li 
+data-has-submenu&gt;&lt;button class=&quot;menu-option&quot; 
+data-resin-target=&quot;properties&quot; aria-haspopup=&quot;true&quot; 
+aria-owns=&quot;properties-submenu-item-137655585817-1502271158&quot;&gt;&lt;span;
+class=&quot;svg-container&quot;&gt; &lt;svg 
+class=&quot;properties-icon-svg&quot; width=&quot;13&quot; height=&quot;10&quot; 
+viewBox=&quot;0 0 13 10&quot; xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; 
+xmlns:xlink=&quot;http:\/\/www.w3.org\/1999\/xlink&quot; role=&quot;img&quot; 
+&gt; &lt;defs&gt;&lt;path id=&quot;propertiesicon-385132946-a&quot; d=&quot;M.66 
+0h12v1h-12z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-385132946-e&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;12&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-385132946-a&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-385132946-b&quot; d=&quot;M.66 
+3h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-385132946-f&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-385132946-b&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-385132946-c&quot; d=&quot;M.66 
+6h6v1h-6z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-385132946-g&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;6&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-385132946-c&quot;\/&gt;&lt;\/mask&gt;&lt;path 
+id=&quot;propertiesicon-385132946-d&quot; d=&quot;M.66 
+9h9v1h-9z&quot;\/&gt;&lt;mask id=&quot;propertiesicon-385132946-h&quot; 
+x=&quot;0&quot; y=&quot;0&quot; width=&quot;9&quot; height=&quot;1&quot; 
+fill=&quot;#fff&quot;&gt;&lt;use 
+xlink:href=&quot;#propertiesicon-385132946-d&quot;\/&gt;&lt;\/mask&gt;&lt;\/defs&gt;&lt;gc
+stroke=&quot;#444&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;&lt;use 
+mask=&quot;url(#propertiesicon-385132946-e)&quot; 
+xlink:href=&quot;#propertiesicon-385132946-a&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-385132946-f)&quot; 
+xlink:href=&quot;#propertiesicon-385132946-b&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-385132946-g)&quot; 
+xlink:href=&quot;#propertiesicon-385132946-c&quot;\/&gt;&lt;use 
+mask=&quot;url(#propertiesicon-385132946-h)&quot; 
+xlink:href=&quot;#propertiesicon-385132946-d&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;Properties&lt;\/button&gt;&lt;ul;
+class=&quot;menu submenu&quot; data-resin-feature=&quot;propertiessubmenu&quot; 
+id=&quot;properties-submenu-item-137655585817-1502271158&quot;&gt;&lt;li&gt;&lt;a&
+class=&quot;menu-option&quot; href=&quot;\/file\/137655585817\/properties&quot; 
+data-menu-event=&quot;file-properties&quot; 
+data-resin-target=&quot;properties&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt; &lt;svg class=&quot;item-info-icon-svg&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; viewBox=&quot;0 0 5 13&quot; 
+width=&quot;5&quot; height=&quot;13&quot; role=&quot;img&quot; &gt; &lt;g 
+fill=&quot;#444&quot;&gt;&lt;path d=&quot;M1 12h3V6H1v6zm0-7h3c.6 0 1 .5 1 1v6c0 
+.6-.4 1-1 1H1c-.6 0-1-.5-1-1V6c0-.6.4-1 1-1zM2 3h1c.6 0 1-.4 1-1s-.4-1-1-1H2c-.6 
+0-1 .4-1 1s.4 1 1 1zm0-3h1c1.1 0 2 .9 2 2s-.9 2-2 2H2C.9 4 0 3.1 0 2s.9-2 
+2-2z&quot;\/&gt;&lt;\/g&gt;&lt;\/svg&gt;&lt;\/span&gt;File 
+Information&lt;\/a&gt;&lt;\/li&gt; &lt;li&gt;&lt;a class=&quot;menu-option&quot; 
+href=&quot;\/file\/137655585817?sidebar=metadata&quot; data-ajax 
+data-resin-feature=&quot;editmetadata&quot; 
+data-resin-target=&quot;viewmetadataeditor&quot;&gt;&lt;span 
+class=&quot;svg-container&quot;&gt;\n&lt;svg 
+class=&quot;metadata-template-icon-svg&quot; width=&quot;21&quot; 
+height=&quot;21&quot; viewBox=&quot;0 0 21 21&quot; 
+xmlns=&quot;http:\/\/www.w3.org\/2000\/svg&quot; role=&quot;img&quot; &gt;\n \n 
+&lt;g transform=&quot;translate(1 1)&quot; fill=&quot;none&quot; 
+fill-rule=&quot;evenodd&quot;&gt;\n &lt;ellipse stroke=&quot;#333333&quot; 
+cx=&quot;9.5&quot; cy=&quot;9.5&quot; rx=&quot;9.5&quot; 
+ry=&quot;9.5&quot;\/&gt;\n &lt;path d=&quot;M9.612 
+10.01c.057.127.11.256.164.388.052-.135.106-.268.163-.397.056-.128.117-.25.18-.367l1.725-3.393c.03-.06.063-.104.095-.136.032-.033.068-.056.108-.072.04-.015.086-.024.136-.027.05-.003.11-.005.178-.005h1.19v6.717h-1.375V8.854c0-.188.01-.39.028-.61l-1.78\
+3.454c-.055.108-.13.19-.223.244-.094.056-.2.083-.32.083H9.67c-.12 
+0-.227-.027-.32-.083-.095-.055-.17-.136-.225-.244L7.337 
+8.24c.012.108.02.215.028.32.006.107.01.205.01.294v3.863H6V6h1.19c.067 0 
+.126.002.177.005.05.003.096.012.136.027.04.016.076.04.108.072.033.032.065.077.096.136l1.728a
+3.407c.062.116.12.238.178.364&quot; fill=&quot;#333333&quot;\/&gt;\n 
+&lt;\/g&gt;\n&lt;\/svg&gt;&lt;\/span&gt;Metadata&lt;\/a&gt;&lt;\/li&gt;&lt;\/ul&gt;&lt;\/li&gt;w
+&lt;\/ul&gt;&lt;\/div&gt; "},"excerpts":null} 
+
+
+
+
+{"typedID":"f_144109928300","parentTypedID":"d_19585919196","extension":"pdf","fileName":"A;
+Brief History of Data Visualization.pdf","pageTitle":"A Brief History of Data 
+Visualization.pdf | Powered By Box","isOpenWithProgramEnabled":false} 
+Wk1 - Introduction to Jedi Academy - Data Viz Best Practices in Tableau  
+ A Brief History of Data Visualization.pdf
+
+
+A Brief History of Data Visualization.pdf 
+ 
+
+
+ ✕
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Loading Preview...
+Download File
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+   
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+2 / 44
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+{"itemTypedID":"f_144109928300"}  
+
+
+Details
+
+
+
+
+
+
+
+File Properties
+  OwnerThomas OHaraEnterprise OwnerComcastCreatedMar 7, 2017, 6:41 AMModifiedAug 
+  3, 2016, 10:03 AMSize2 MB
+
+Access Stats
+
+ window.Box = window.Box || {}; Box.config = Box.config || {};
+ Box.config.currentRm = 'shared_page_vanity_name'; Box.config.datacenterTag = 
+'sv2'; Box.config.isBoxEditAllowed = 1; Box.config.isOfficeOnlineAllowed = 1;
+ Box.config.requestToken = 
+'464db019ecfc3903f221ff08d47d394cf2bc3d645874405f285191b6d09ebfd6';
+ Box.config.zip_method = 'nginx'; Box.config.file_size_download_limit = 
+10737418240; Box.config.debug = 0; Box.config.userId = 2;
+ Box.config.realtimeSubscriberID = '178310424259653230e6527'; Box.config.uploads 
+= { flashUploadURL: 'https://upload.app.box.com/multipart', html5UploadURL: 
+'https://upload.app.box.com/html5', forceFlash: false }; Box.config.lockConfig = 
+{ lockActionId: 365, unlockActionId: 367, lockActionAsct: 
+'8661dd8bd711d3cb9217dcfb9251646f83c677357271dead118a9cec2b06b778',
+ unlockActionAsct: 
+'1c78f98c986350b262b129c619920f52661b1646c4a4aeb64fd5a303e14e4aed' };
+ Box.config.locale = 'en-US'; Box.config.emitTranslationTags = 0;
+ Box.config.showResinTagTracker = 0; Box.config.resinPageName = 
+'sharedfolderpage'; Box.config.vanityName = 'tableau-bootcamp';
+ Box.config.isSharedFolderPage = true; /* Default US params - overwrite default 
+multi-letter weekday names */ Box.config.pikadayI18N = { i18n: { previousMonth: 
+'Prev', nextMonth: 'Next', months: 
+['January','February','March','April','May','June',
+ 'July','August','September','October','November','December'], weekdays: 
+['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+ weekdaysShort: ['S','M','T','W','T','F','S'] }, firstDay: 0, isRTL: false,
+ showMonthAfterYear: false, yearSuffix: '' }; function clearLoadingScreen() {
+ document.body.classList.remove('is-loading-screen-displayed'); var 
+loadingScreenEl = document.querySelector('.loading-screen'); if 
+(loadingScreenEl) { document.body.removeChild(loadingScreenEl); } } /* Box 
+Timing bootstrap */ Box.Timing = Box.Timing || {execution: [], scripts: {}, 
+events: {}, attributes: {}}; Box.Timing.attributes = { amsterdam: true, locale: 
+Box.config.locale, resinPageName: Box.config.resinPageName }; window.onload = 
+function() { if (Box.init) return; Box.Application.init(Box.config);
+ clearLoadingScreen(); };   <span class="spinner-amsterdam"> <span 
+class="crawler"><span></span><span></span><span></span></span></span>  <div 
+class="spinner-amsterdam spinner-amsterdam-light large"> <span 
+class="crawler"><span></span><span></span><span></span></span></div>  <svg 
+version="1.1" xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="32" 
+height="32" enable-background="new 0 0 32 32" xml:space="preserve" role="img" > 
+<path fill="#42A2DB" 
+d="M27,25H5c-0.6,0-1-0.4-1-1V8c0-0.6,0.4-1,1-1h8.6L16,9h11c0.6,0,1,0.4,1,1v14C28,24.6,27.6,25,27,25z"/><pathd
+fill="#CAE9FA" 
+d="M26.5,24h-21C5.2,24,5,23.8,5,23.5V12h22v11.6C27,23.8,26.8,24,26.5,24z"/><circlep
+fill="#42A2DB" cx="13.6" cy="15.8" r="1"/><circle fill="#42A2DB" cx="18.6" 
+cy="15.8" r="1"/><path fill="#42A2DB" 
+d="M13.6,17.5c-1.4,0-2.5,1.1-2.5,2.5v1.5h5V20C16,18.6,14.9,17.5,13.6,17.5z"/><patht
+fill="#42A2DB" 
+d="M17,21.4v-1.5c0-0.5-0.2-1-0.5-1.4c0.5-0.6,1.2-1,2-1c1.4,0,2.5,1.1,2.5,2.5v1.5h-4V21.4z"/></svg>r
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="32" 
+height="32" enable-background="new 0 0 32 32" xml:space="preserve" role="img" > 
+<g transform="translate(4 7)" fill-rule="nonzero" fill="none"><path d="M11 
+2L9.5.33C9.31.118 9.036-.002 8.75 0H1C.448 0 0 .448 0 1v17c0 .552.448 1 1 
+1h22c.552 0 1-.448 1-1V3c0-.552-.448-1-1-1H11z" fill="#A7AEB3"/><rect 
+fill="#EFF0F1" x="1" y="5" width="22" height="13" rx=".5"/><path d="M12.5 
+7C10.008 7 8 9.008 8 11.5s2.008 4.5 4.5 4.5 4.5-2.008 4.5-4.5S14.992 7 12.5 
+7zm-.485 8.1c-1.73-.277-3.115-1.73-3.115-3.6 0-.277.07-.554.07-.83l2.145 
+2.145v.485c0 
+.485.416.9.9.9v.9zm3.116-1.177c-.138-.346-.484-.623-.83-.623h-.485v-1.385c0-.207-.138-.415-.415-.415h-2.7v-.9h.9c.2772
+0 .485-.208.485-.485v-.83h.9c.484 0 .9-.416.9-.9v-.208C15.2 8.73 16.1 9.977 16.1 
+11.5c0 .97-.346 1.8-.97 2.423z" fill="#A7AEB3"/></g></svg>  <svg 
+class="folder-plain-svg" preserveAspectRatio="xMidYMid meet" version="1.1" 
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+viewBox="0 0 32 32" width="32" height="32" enable-background="new 0 0 32 32" 
+xml:space="preserve" role="img" > <g><path fill="#EFD289" 
+d="M27,25H5c-0.6,0-1-0.4-1-1V8c0-0.6,0.4-1,1-1h8.6L16,9h11c0.6,0,1,0.4,1,1v14C28,24.6,27.6,25,27,25z"/><path.
+fill="#FDEFC1" 
+d="M26.5,24h-21C5.2,24,5,23.8,5,23.5V12h22v11.6C27,23.8,26.8,24,26.5,24z"/></g></svg>"
+ <svg width="20px" height="20px" viewBox="0 0 20 20" 
+xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" 
+fill-rule="evenodd"><circle stroke="#FFFFFF" cx="9" cy="9" r="9"/><rect 
+fill="#FFFFFF" x="8" y="8" width="2" height="6" rx="1"/><circle fill="#FFFFFF" 
+cx="9" cy="5" r="1"/></g></svg>  <svg width="20px" height="20px" viewBox="0 0 20 
+20" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" fill="none" 
+fill-rule="evenodd"><circle stroke="#FFFFFF" cx="9" cy="9" r="9"/><rect 
+fill="#FFFFFF" x="8" y="4" width="2" height="6" rx="1"/><circle fill="#FFFFFF" 
+cx="9" cy="13" r="1"/></g></svg>  <svg width="20px" height="20px" viewBox="0 0 
+20 20" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" 
+stroke="#FFFFFF" fill="none" fill-rule="evenodd"><circle cx="9" cy="9" 
+r="9"/><polyline stroke-linecap="round" stroke-linejoin="round" points="5 
+8.59700571 7.97540205 12 13 6"/></g></svg>  <svg width="20px" height="20px" 
+viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"> <g transform="matrix(1 0 
+0 -1 1 19)" fill="none" fill-rule="evenodd"> <circle stroke="#FFFFFF" cx="9" 
+cy="9" r="9"/> <path d="M8.99870528,7.00322692 C7.99741056,6.95995299 
+7.30772192,7.34932799 7.11647844,7.80376162 C6.82121147,8.50537574 
+7.10298215,10.0005227 6.71043535,10.9763966 C6.58716695,11.2828427 
+6.06362295,11.9195122 5.65453844,12.1850724 C5.20038627,12.5026605 
+4.89677352,12.9073399 5.02828427,13.0110609 C5.72719221,13.5622817 
+7.28244474,13.9531171 8.99741056,13.959953 C10.7123764,13.9667889 
+13.4237984,13.4483355 12.9439635,12.7329733 C12.8273573,12.559131 
+12.3880586,12.2308909 12.1481974,12.0118607 C11.8280166,11.7194856 
+11.4102812,11.5124985 11.192734,10.8874732 C11.0694856,10.5333733 
+11.0505996,10.0375459 11.0505996,9.33473924 C11.0505996,8.17299224 
+10.7077261,7.53483599 10.2753173,7.32416568 C9.93812209,7.15988362 
+9.93912199,7.00322692 8.99870528,7.00322692 Z" stroke="#FFFFFF" 
+stroke-width="0.538649962" fill="#FFFFFF" transform="rotate(180 9 10.48)"/> 
+<circle fill="#FFFFFF" cx="9" cy="5" r="1"/> </g> </svg>  
